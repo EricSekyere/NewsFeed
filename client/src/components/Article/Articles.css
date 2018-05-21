@@ -1,0 +1,25 @@
+.article-wrapper{
+  position: absolute;
+  will-change: auto;
+  width: 100%;
+
+}
+.card-columns{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+  grid-auto-rows: minmax(200, auto);
+}
+
+div.card{
+  width: inherit !important;
+  grid-auto-columns: minmax(250px, auto);
+  text-align: center;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.btn-primary{
+  position: relative;
+  margin-bottom: 1px !important;
+}

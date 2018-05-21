@@ -1,0 +1,28 @@
+{
+  "name": "server",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./server/bin/www",
+  "description": "Newsfeed server to fetch news",
+  "scripts": {
+    "start": "nodemon ./server/bin/www",
+    "client-install": "cd client && npm install",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client/",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4",
+    "morgan": "~1.9.0"
+  },
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "cookie-parser": "~1.4.3",
+    "cors": "^2.8.4",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "request": "^2.85.0"
+  }
+}
