@@ -1,16 +1,13 @@
 'use strict'
-var axios = require("axios");
 
+/**
+ * This file will hold all http operations to be used in other files
+ * TODO : to be implemented
+ */
 module.exports = 
 {
    httpcall :  function (url) {
-        return axios.get(url)
-            .then(function (data) {
-                return data;
-            })
-            .catch(function (err) {
-                return JSON.stringify(err);
-            });
+    //TODO: inplement http call here.
    }
 }
 
