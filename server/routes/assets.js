@@ -1,4 +1,4 @@
 module.exports = 
 {
-    newsAPIKey: "4ab6786b9c7446c38487a7792338d51c"
+    newsAPIKey: "5400f92d7592478cbaf27fa1eac02d8f"
 }
