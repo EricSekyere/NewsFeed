@@ -2,7 +2,6 @@ var httpretreiver = require("./scripts");
 var apikeys= require("./assets");
 var express = require('express');
 var cors = require("cors");
-var axios = require("axios");
 var request = require("request");
 //var  _ = require("loadash");
 
