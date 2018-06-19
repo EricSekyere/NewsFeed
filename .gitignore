@@ -2,4 +2,6 @@
 */package-lock.json
 */node_modules
 node_modules
+
 /*/assets.js
+server/routes/assets.js
