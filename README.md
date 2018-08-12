@@ -1,5 +1,5 @@
 # NewsFeed
 NewsFeed with react
 
-#Learning react
+Documentation to come
 
