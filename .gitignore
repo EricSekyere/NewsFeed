@@ -1,7 +1,7 @@
+
 #dependencies
 */package-lock.json
 */node_modules
 node_modules
+.env
 
-/*/assets.js
-server/routes/assets.js
