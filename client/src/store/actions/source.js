@@ -1,4 +1,4 @@
-import {GET_SOURCES, GET_SOURCE} from './constants';
+import {GET_SOURCES} from './constants';
 import { error } from 'util';
 
 export const getSources = () => dispatch => {
@@ -8,8 +8,3 @@ export const getSources = () => dispatch => {
     .catch(err =>  {})
 }
 
-export const getSource = (id) => dispatch =>{
-  return fetch('/api/sources/:id')
-  .then(res => res.json())
-    .then(source => dispatch({ type: GET_SOURCE, payload: source }))
-};

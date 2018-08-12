@@ -21,7 +21,7 @@ class Sources extends Component {
   }
 
   getSource(id){
-    
+    this.props.getSource(id);
   }
 
   render() {
