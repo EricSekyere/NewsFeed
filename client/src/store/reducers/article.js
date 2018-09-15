@@ -4,9 +4,9 @@ const articleReducer = (state = [], {type, payload}) => {
     switch (type) {
       case GET_ARTICLES:
       case GET_SOURCE_ARTICLES:
-        return payload
+        return payload;
       default:
-        return state
+        return state;
     }
 }
 

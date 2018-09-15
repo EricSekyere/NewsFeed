@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types'
 import {connect } from 'react-redux';
-import {getArticles} from '../../store/actions/article'
+import {getArticles, getSourceArticles} from '../../store/actions/article'
 import './Articles.css';
 
 class Articles extends Component {
 
   static propTypes = {
     getArticles: PropTypes.func.isRequired,
+    getSourceArticles:PropTypes.func.isRequired,
     articles: PropTypes.array.isRequired
   }
 
