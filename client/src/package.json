@@ -9,7 +9,7 @@
     "react-scripts": "2.0.0",
     "redux": "^3.7.2",
     "redux-thunk": "^2.2.0",
-    "snyk": "^1.83.0"
+    "snyk": "^1.231.0"
   },
   "scripts": {
     "start": "react-scripts start",
