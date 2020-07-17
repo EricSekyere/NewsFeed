@@ -27,7 +27,7 @@
     "http-errors": "~1.6.2",
     "jade": "~1.11.0",
     "newsapi": "^2.4.0",
-    "request": "^2.87.0",
+    "request": "^2.88.0",
     "snyk": "^1.97.1"
   },
   "snyk": true
